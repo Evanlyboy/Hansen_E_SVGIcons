@@ -19,3 +19,8 @@ grid-gap: 20px;
 .container {
     display: flex;
 }
+
+h2 {
+    font-family: Lexend;
+    font-size: 16px;
+}
