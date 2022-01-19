@@ -20,6 +20,11 @@ grid-gap: 20px;
     display: flex;
 }
 
+/* descendant selector > every img with a a class of container */
+.container img {
+    width: 100%;
+}
+
 h2 {
     font-family: Lexend;
     font-size: 4em;
