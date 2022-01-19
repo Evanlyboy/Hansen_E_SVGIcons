@@ -29,3 +29,9 @@ h2 {
     font-family: Lexend;
     font-size: 4em;
 }
+
+/* interactive SVG rules */
+
+.cls-2:hover {
+    fill: orange;
+}

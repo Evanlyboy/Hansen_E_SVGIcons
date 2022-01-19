@@ -1,12 +1,16 @@
 <svg id="badge" xmlns="http://www.w3.org/2000/svg" width="166.7" height="167" viewBox="0 0 166.7 167">
   <defs>
     <style>
+    #badge:hover {
+      cursor: pointer;
+    }
+
       .cls-1, .cls-4, .cls-6 {
         opacity: 0.7;
       }
 
       .cls-2, .cls-4 {
-        fill: red;
+        fill: white;
       }
 
       .cls-3 {
