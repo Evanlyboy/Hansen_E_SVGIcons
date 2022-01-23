@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="288" height="282.7" viewBox="0 0 288 282.7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4d4d4d;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: #e27423;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="119.55" y1="269.58" x2="158.83" y2="-0.58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#892922"/>
+      <stop offset="0.43" stop-color="#8b2b22"/>
+      <stop offset="0.58" stop-color="#913224"/>
+      <stop offset="0.69" stop-color="#9b3d26"/>
+      <stop offset="0.78" stop-color="#ab4e2a"/>
+      <stop offset="0.86" stop-color="#be642e"/>
+      <stop offset="0.92" stop-color="#d78034"/>
+      <stop offset="0.98" stop-color="#f39f3b"/>
+      <stop offset="1" stop-color="#fdaa3d"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="Double_Tap" data-name="Double Tap">
+        <polygon class="cls-1" points="0 0 288 0 288 198.3 144.5 282.7 0 200.4 0 0"/>
+        <polygon class="cls-2" points="7.5 7.4 280.5 7.4 280.5 195.4 144.5 275.4 7.5 197.4 7.5 7.4"/>
+        <path class="cls-3" d="M58,39.9l89,30,16-36,7,29,6,3,35.5-32L182,95.9l73,23,2,5-64.2,4.4L255,194.9l-66.5-27.2-23,27.2-10.7-39.5L104,184.9s16.2-70.5,15.5-69.5-89,32-89,32l51-44,1-12Z"/>
+        <g id="Bullets">
+          <polygon id="Bullet_1" data-name="Bullet 1" class="cls-4" points="244.5 18.4 258.5 29.4 201.5 84.4 195.5 83.4 165.5 112.4 161.5 111.4 161.5 107.4 188.5 78.4 188.5 72.4 244.5 18.4"/>
+          <polygon id="Bullet_2" data-name="Bullet 2" class="cls-4" points="160 139.1 176.3 145.4 139.5 214.1 133.6 215 114.2 251.2 110.2 251.5 109 247.7 125.6 212.3 123.8 206.7 160 139.1"/>
+          <polygon id="Bullet_3" data-name="Bullet 3" class="cls-4" points="134 106.2 143.2 122.5 67.1 156.7 61.7 153.5 21.5 171.6 18.1 169.1 19.6 165 56.9 145.9 59.2 139.8 134 106.2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

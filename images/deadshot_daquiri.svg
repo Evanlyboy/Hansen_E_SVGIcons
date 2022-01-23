@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="288" height="282.7" viewBox="0 0 288 282.7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4d4d4d;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="93.53" y1="255.18" x2="178.67" y2="-4.21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#282520"/>
+      <stop offset="0.37" stop-color="#2a2722"/>
+      <stop offset="0.56" stop-color="#322f2a"/>
+      <stop offset="0.72" stop-color="#3f3d37"/>
+      <stop offset="0.85" stop-color="#52504a"/>
+      <stop offset="0.97" stop-color="#6b6962"/>
+      <stop offset="1" stop-color="#727069"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="Deadshot_Daquiri" data-name="Deadshot Daquiri">
+        <polygon class="cls-1" points="0 0 288 0 288 198.3 144.5 282.7 0 200.4 0 0"/>
+        <polygon class="cls-2" points="7.5 7.4 280.5 7.4 280.5 195.4 144.5 275.4 7.5 197.4 7.5 7.4"/>
+        <circle id="Head" class="cls-3" cx="142.5" cy="123.4" r="33"/>
+        <path id="Crosshair" class="cls-3" d="M248.5,118.4H234.4A92.1,92.1,0,0,0,148,31.6V15.9H137V31.6a92.1,92.1,0,0,0-86.4,86.8H36.5v11H50.7A92.1,92.1,0,0,0,137,215.2v12.7h11V215.2a92.1,92.1,0,0,0,86.3-85.8h14.2Zm-29.2,0H148V46.6A76.9,76.9,0,0,1,219.3,118.4ZM137,46.6v71.8H65.7A76.9,76.9,0,0,1,137,46.6ZM65.8,129.4H137v70.8A76.9,76.9,0,0,1,65.8,129.4ZM148,200.2V129.4h71.2A76.9,76.9,0,0,1,148,200.2Z"/>
+        <path id="Body" class="cls-3" d="M191.5,168.4h-96a31.2,31.2,0,0,0-26,20.9v43.3l26,14.8V219.4h8v32.7l41,23.3,38-22.3V219.4h9v28.4l26-15.3V189.4A30.1,30.1,0,0,0,191.5,168.4Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

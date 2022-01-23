@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="288" height="282.7" viewBox="0 0 288 282.7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4d4d4d;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        opacity: 0.4;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="94.11" y1="253.93" x2="179.26" y2="-5.46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1c4c52"/>
+      <stop offset="0.32" stop-color="#1d4e54"/>
+      <stop offset="0.5" stop-color="#22565c"/>
+      <stop offset="0.63" stop-color="#29636a"/>
+      <stop offset="0.75" stop-color="#34767d"/>
+      <stop offset="0.86" stop-color="#428e96"/>
+      <stop offset="0.96" stop-color="#53abb4"/>
+      <stop offset="1" stop-color="#5dbbc5"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="Quick_Revive" data-name="Quick Revive">
+        <polygon class="cls-1" points="0 0 288 0 288 198.3 144.5 282.7 0 200.4 0 0"/>
+        <polygon class="cls-2" points="8.1 6.2 281.1 6.2 281.1 194.2 145.1 274.2 8.1 196.2 8.1 6.2"/>
+        <circle id="Head" class="cls-3" cx="202.5" cy="36.4" r="16"/>
+        <path id="Body" class="cls-3" d="M232.6,74.4c-4.2-9.9-15-17-27.6-17s-23.4,7.1-27.6,17l-.9,73h9v86l14-12.2V169.4h9v44l16-13.9V147.4h9Z"/>
+        <path id="Whoosh" class="cls-4" d="M194.5,50a16.9,16.9,0,0,1-7-13.6c0-4,4.6-10.1,7-13-4.4-.9-12.1.5-16.8,1-34,3.8-65.2,43.7-67.4,67.5-.4,4.4-.5,12.3.2,16.5l29.9,15.1c-.1-1.5.8-7.5.9-9.1C144.4,80.4,163.5,56.9,194.5,50Z"/>
+        <g id="Tombstone">
+          <path class="cls-3" d="M88.3,85.4c-8.3,0-15.2,5.3-15.8,12v56l30-22v-39C99.9,88.1,94.5,85.4,88.3,85.4Z"/>
+          <polygon class="cls-3" points="54.6 98.4 65.5 99.4 65.5 150.9 54 145.4 54.6 98.4"/>
+          <path class="cls-3" d="M85,83c-5.1-1.7-8.4-2.4-12.3-3.6-9.5.2-13.5,6.1-16.5,13.7a58.8,58.8,0,0,1,9,2.4C69.7,89.6,75.2,84.2,85,83Z"/>
+        </g>
+        <g id="Grave">
+          <path class="cls-3" d="M171.5,238.4c3.8-2.7-3.2-11.9-15.4-20.3L91.9,173.8c-12.2-8.5-21.6-16.1-20.8-16.9s.3-1.9-1.1-2.5-5,.8-8,3a7.4,7.4,0,0,0-1.5,10v-2a4,4,0,0,1,4,4c0,2.2-1.4,3.8-3,3.5s-2.8,1.8-2.5,4.5,2.3,4.8,4.5,4.5,4.2,2.7,4.5,6.5,7.2,6.8,15.5,6.5,15.2,3.6,15.5,8.5,5.4,9.2,11.3,9.5,11,7.7,11.2,16.5v1c0,1,2.4.9,2.4.9,14.8-.9,27-.5,27,.8s3.6,2.3,8,2.3,9.2,1.8,10.6,4h2Z"/>
+          <path class="cls-3" d="M159.9,165.6c9.1,5.4,16.6,6,16.6,1.3s.2-10.2-3-11.5-9.1-4.7-9.7-8.2-6.7-7.5-13.7-8.7l-1.1,1-1,1.1c-1.8-4.1-4.1-7.3-5.3-7s-2.6-1.4-3.2-3.8h-2.1c-5.8,3.6-10.4,1.6-11.9-1.4s-6.9-5-10-5-7.3,3.2-9.7,4.7,3.2,7.2,12.3,12.6Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
