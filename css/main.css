@@ -7,10 +7,13 @@
 
 .hidden { display: none;}
 
-.main-heading { color: blue; cursor: pointer;}
+.main-heading { 
+    color: black; cursor: pointer;
+
+}
 
 #svg-grid {
-display:grid;
+display: grid;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-gap: 20px;
@@ -18,11 +21,14 @@ grid-gap: 20px;
 
 .container {
     display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+
 }
 
 /* descendant selector > every img with a a class of container */
 .container img {
-    width: 100%;
+    width: 90%;
 }
 
 h2 {
@@ -30,8 +36,41 @@ h2 {
     font-size: 4em;
 }
 
+h3 {
+    font-family: Lexend;
+    font-size: 3em;
+}
+
 /* interactive SVG rules */
 
 .cls-2:hover {
     fill: orange;
+}
+
+/* Perk properties */
+
+.header-text {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row: 1;
+    padding: 2em;
+    border-bottom: 3em;
+    border-right: 5em;
+    
+}
+
+.perk {
+    padding: .5em;
+    border-width: 1em;
+}
+
+.waw-perks {
+    display: grid;
+    border: .5em solid black;
+    margin: 0em 2em;
+}
+
+.blackOps-perks {
+    display: grid;
+    border: .5em solid black;
 }
