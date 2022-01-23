@@ -4,8 +4,7 @@
 Any modern web browser since at least March 2017. Not Chrome though. You cannot use Chrome. :^)
 
 ### Usage
-Use the GitHub Pages link
-https://evanlyboy.github.io/Hansen_E_SVGIcons/
+Use the <a href="https://evanlyboy.github.io/Hansen_E_SVGIcons/" rel="nofollow">GitHub Pages</a> link
 
 OR
 
