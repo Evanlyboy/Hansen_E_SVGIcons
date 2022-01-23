@@ -8,13 +8,14 @@
 .hidden { display: none;}
 
 .main-heading { 
-    color: black; cursor: pointer;
-
+    color: whitesmoke; cursor: pointer;
+    text-shadow: 3px 3px 0 black;
+    margin: 1em;
 }
 
-/* #app {
-    background-image: url(https://i.imgur.com/OfiVRyn.jpg);
-} */
+.site {
+    background-image: url(../images/background.jpg);
+}
 
 #svg-grid {
 display: grid;
@@ -53,6 +54,9 @@ h3 {
     cursor: pointer;
 }
 
+.perk-sections:hover {
+    background-color: rgb(97, 47, 47);
+}
 
 
 /* Perk properties */
@@ -66,7 +70,8 @@ h3 {
 
 .header-text2 {
     display: grid;
-
+    color: whitesmoke;
+    text-shadow: 3px 3px 0 black;
 }
 
 .perk {
@@ -77,6 +82,12 @@ h3 {
 .perk-title {
     font-family: Lexend;
     font-size: 2em;
+    color: whitesmoke;
+}
+
+.perk-subtitle {
+    font-family: Lexend;
+    font-size: 1.5em;
     color: whitesmoke;
 }
 
@@ -92,8 +103,4 @@ h3 {
     border-radius: 2em;
     margin: 0em 2em;
     transition-duration: 500ms;
-}
-
-.perk-sections:hover {
-    background-color: rgb(97, 47, 47);
 }
