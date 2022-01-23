@@ -7,10 +7,17 @@
 
 .hidden { display: none;}
 
-.main-heading { color: blue; cursor: pointer;}
+.main-heading { 
+    color: black; cursor: pointer;
+
+}
+
+/* #app {
+    background-image: url(https://i.imgur.com/OfiVRyn.jpg);
+} */
 
 #svg-grid {
-display:grid;
+display: grid;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-gap: 20px;
@@ -18,14 +25,77 @@ grid-gap: 20px;
 
 .container {
     display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+
 }
 
 /* descendant selector > every img with a a class of container */
 .container img {
-    width: 100%;
+    max-width: fit-content;
 }
 
 h2 {
     font-family: Lexend;
     font-size: 4em;
+}
+
+h3 {
+    font-family: Lexend;
+    font-size: 2em;
+    width: fit-content;
+}
+
+/* interactive SVG rules */
+
+.icon:hover {
+    filter: drop-shadow(.5em 1em 1em rgb(0 0 0 / 0.8));
+    cursor: pointer;
+}
+
+
+
+/* Perk properties */
+
+.header-text {
+    display: grid;
+    grid-template-columns: repeat(4, 1.5fr);
+    grid-row: 1;
+    padding: 1em 2em .5em 2em;
+    border-bottom: 3em;
+    border-right: 5em;
+}
+
+.header-text2 {
+    display: grid;
+
+}
+
+.perk {
+    padding: .5em;
+    border-width: 1em;
+}
+
+.perk-title {
+    font-family: Lexend;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.perk-desc {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    color: whitesmoke;
+}
+
+.perk-sections {
+    background-color: rgb(59, 59, 59);
+    padding: 2em;
+    border-radius: 2em;
+    margin: 0em 2em;
+    transition-duration: 500ms;
+}
+
+.perk-sections:hover {
+    background-color: rgb(97, 47, 47);
 }
