@@ -18,19 +18,24 @@
 </head>
 <body>
    <main id="app">
+
        <header class="main-header">
            <h1 class="hidden">Welcome to my Awesome SVG Store</h1>
            <h2 id="theMainHeading" class="main-heading">My SVG Icons</h2>
        </header>
+
+
        <section id="svg-grid">
         <article class="container">
           <h2 class="hidden">graphic 1</h2>
-          <img id="theSVG" src="images/badge.jpg" class="icon" alt="raster graphic">
+          <img id="theJPEG" src="images/badge.jpg" class="icon" alt="raster graphic">
+            <p>some text</p>
         </article>
   
         <article class="container">
           <h2 class="hidden">graphic 2</h2>
-          <img id="theJPEG" src="images/badge.svg" class="icon" alt="vector graphic">
+          <img id="theSVG" src="images/badge.svg" class="icon" alt="vector graphic">
+            <p>some text</p>
         </article>
 
         <!-- inline svg  -->
@@ -147,11 +152,17 @@
                 </g>
               </svg>              
             <!-- end inline svg -->
+            <p>inline svg</p>
           </article>
         <!--  -->
 
-      </section>  
-   </main> 
+        <article class="container">
+          <h2 class="hidden">graphic 4</h2>
+          <object data="images/badge.svg" type="image/svg+xml"></object>
+          <p>some text</p>
+        </article>
+      </section>
+   </main>
 
    <!-- javascript imports always go here-->
    <script src="js/main.js" defer></script>

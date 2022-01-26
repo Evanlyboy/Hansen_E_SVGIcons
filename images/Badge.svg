@@ -1,20 +1,41 @@
 <svg id="badge" xmlns="http://www.w3.org/2000/svg" width="166.7" height="167" viewBox="0 0 166.7 167">
   <defs>
     <style>
+    #white {
+      opacity: 1;
+      transition: opacity 0.5s ease;
+    }
+
     #badge:hover {
       cursor: pointer;
     }
 
+    #badge:hover .cls-2 {
+      fill: orange;
+    }
+
+    #badge:hover .cls-1:not(#ampersand) {
+      transform: rotate(180deg);
+    }
+
       .cls-1, .cls-4, .cls-6 {
         opacity: 0.7;
+        fill: #fff;
       }
 
-      .cls-2, .cls-4 {
-        fill: white;
+      .cls-1 {
+        fill: #999;
+        transform-origin: center;
+        transition: all 0.5s ease;
+      }
+
+      .cls-2 {
+        fill: red;
+        transition: all 1.5s ease;
       }
 
       .cls-3 {
-        fill: red;
+        fill: #fff;
       }
 
       .cls-5, .cls-6 {
@@ -28,6 +49,18 @@
         stroke-dasharray: 0.86 0.86;
       }
     </style>
+
+  <!-- add our own JS inside the SVG -->
+    <script>
+      let theBadge = document.querySelector("#badge");
+
+      function logMyId() {
+        console.log("clicked on the object tag:", this.id);
+      }
+
+      theBadge.addEventListener("click", logMyId);
+    </script>
+
   </defs>
   <g id="Layer_2" data-name="Layer 2">
     <g id="blackBG">
